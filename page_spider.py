@@ -2,6 +2,7 @@
 import os
 import argparse
 
+
 def main(database: str, url_list_file: str):
     print("we are going to work with " + database)
     print("we are going to scan " + url_list_file)
